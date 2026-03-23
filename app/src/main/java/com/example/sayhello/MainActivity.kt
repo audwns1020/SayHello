@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding.btn1.setOnClickListener {
             Toast.makeText(applicationContext, "버튼을 눌렀어요",
                 Toast.LENGTH_SHORT).show()
+            binding.textview1.text="Hello Ketlin"
         }
     }
 }
